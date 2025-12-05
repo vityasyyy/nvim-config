@@ -1,5 +1,5 @@
--- ~/.config/nvim/lua/plugins/copilot.lua
-
+-- -- ~/.config/nvim/lua/plugins/copilot.lua
+--
 return {
   -- 1. The main Copilot plugin
   {
