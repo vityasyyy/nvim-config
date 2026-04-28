@@ -1,13 +1,11 @@
 return {
   {
     "brianhuster/live-preview.nvim",
-    ft = { "markdown", "html" }, -- Load only for these file types
+    ft = { "markdown", "html" },
     config = function()
-      require("live-preview").set({
-        -- Optional configuration options here
-        -- For example, you can specify the default browser or port
+      require("livepreview.config").set({
+        -- optional options
       })
     end,
   },
-  -- other plugins
 }
