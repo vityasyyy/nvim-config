@@ -13,4 +13,7 @@ return {
 
   -- Disable flash.nvim (prefer native f/t/F/T motions)
   { "folke/flash.nvim", enabled = false },
+
+  -- Disable blink.cmp completion engine
+  { "zbirenbaum/copilot.lua", enabled = true },
 }
