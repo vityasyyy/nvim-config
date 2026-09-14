@@ -31,7 +31,6 @@ return {
     { "<leader>sG", function() Snacks.picker.grep({ cwd = "~" }) end, desc = "Grep (Home)" },
     { "<leader>sb", function() Snacks.picker.buffers() end, desc = "Buffers" },
     { "<leader>sh", function() Snacks.picker.recent() end, desc = "Recent Files" },
-    { "<leader>sr", function() Snacks.picker.resume() end, desc = "Resume Last Search" },
     { "<leader>sq", function() Snacks.picker.qflist() end, desc = "Quickfix List" },
     { "<leader>fh", function() Snacks.picker.help() end, desc = "Help Pages" },
     { "<leader>fC", function() Snacks.picker.commands() end, desc = "Find Commands" },
